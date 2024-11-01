@@ -38,6 +38,19 @@ public class Main {
 
             pessoa = new Aluno(cpf, nome, idade, matricula);
 
+            System.out.println("Aluno Bolsista ou Regular?");
+            System.out.println("1 - Bolsista");
+            System.out.println("2 - Regular");
+            int tipoAluno = sc.nextInt();
+            sc.nextLine();
+
+            if (tipoAluno == 1) {
+
+                double bolsa = 800.0;
+
+                Aluno aluno = new Bolsista(cpf, nome, idade, matricula, bolsa);
+            }
+
         }
         else if (tipoPessoa.equalsIgnoreCase("Professor")) {
 
@@ -52,6 +65,7 @@ public class Main {
 
         if (pessoa != null) {
 
+            System.out.println();
             System.out.println("Nome: " + pessoa.getNome());
             System.out.println("CPF: " + pessoa.getCpf());
             System.out.println("Idade: " + pessoa.getIdade());
