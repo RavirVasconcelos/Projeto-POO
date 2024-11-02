@@ -11,8 +11,8 @@ public class Bolsista extends Aluno {
     
   }
 
-  @Override
+
   public void pagarMensalidade() {
-    
+    System.out.println();
   }
 }

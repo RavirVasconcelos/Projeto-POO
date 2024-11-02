@@ -1,8 +1,0 @@
-modules = ["java-graalvm22.3"]
-run = "Java"
-
-[nix]
-channel = "stable-24_05"
-
-[deployment]
-run = ["sh", "-c", "Java"]

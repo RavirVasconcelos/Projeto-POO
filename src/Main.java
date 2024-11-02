@@ -3,6 +3,7 @@ import Pessoas.Pessoa;
 import Pessoas.Aluno;
 import Pessoas.Visitante;
 import Pessoas.Professor;
+import Pessoas.Bolsista;
 
 public class Main {
 
